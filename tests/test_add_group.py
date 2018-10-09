@@ -14,16 +14,16 @@ def app(request):
 
 def test_add_grouptest(app):
     app.session.login(username="admin", password="secret")
-    app.init_new_group_creation()
-    app.fill_group_form(Group(name="123", header="defaul group header", footer="defaul group footer"))
-    app.submit_new_group_creation()
+    app.group.init_new_group_creation()
+    app.group.fill_group_form(Group(name="123", header="defaul group header", footer="defaul group footer"))
+    app.group.submit_new_group_creation()
     app.session.logout()
 
 
 def test_add_empty_grouptest(app):
     app.session.login(username="admin", password="secret")
-    app.init_new_group_creation()
-    app.fill_group_form(Group(name="", header="", footer=""))
-    app.submit_new_group_creation()
+    app.group.init_new_group_creation()
+    app.group.fill_group_form(Group(name="", header="", footer=""))
+    app.group.submit_new_group_creation()
     app.session.logout()
 
