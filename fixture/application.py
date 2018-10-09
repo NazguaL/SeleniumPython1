@@ -19,5 +19,5 @@ class Application:
         wd = self.wd
         wd.get("http://127.0.0.1/addressbook/")
 
-    def destroy_fixture(self):
+    def teardown(self):
         self.wd.quit()
