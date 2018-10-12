@@ -3,9 +3,10 @@ from sys import maxsize
 
 class Contact:
 
-    def __init__(self, firstname=None, lastname=None, homephone=None, mobilephone=None, workphone=None, secondaryphone=None, id=None):
+    def __init__(self, firstname=None, lastname=None, all_phones_from_homepage=None, homephone=None, mobilephone=None, workphone=None, secondaryphone=None, id=None):
         self.firstname = firstname
         self.lastname = lastname
+        self.all_phones_from_homepage = all_phones_from_homepage
         self.homephone = homephone
         self.mobilephone = mobilephone
         self.workphone = workphone
