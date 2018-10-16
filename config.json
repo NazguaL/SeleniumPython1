@@ -1,0 +1,13 @@
+{
+  "web": {
+    "baseUrl": "http://127.0.0.1/addressbook/",
+    "username": "admin",
+    "password": "secret"
+  },
+  "db": {
+    "host": "127.0.0.1",
+    "database": "addressbook",
+    "user": "root",
+    "password":""
+  }
+}

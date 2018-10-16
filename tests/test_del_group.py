@@ -15,3 +15,4 @@ def test_del_some_group(app):
     old_groups[index:index + 1] = []
     assert old_groups == new_groups
 
+
