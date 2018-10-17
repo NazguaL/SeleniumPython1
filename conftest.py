@@ -31,7 +31,7 @@ def app(request):
     return fixture
 
 
-@pytest.fixture(scope="session", autouse=True)
+@pytest.fixture # (scope="session", autouse=True)
 def db(request):
     db_config = load_config(request.config.getoption("--config"))["db"]
     dbfixture = DbFixture(host=db_config["host"], database=db_config["database"], user=db_config[ "user"], password=db_config["password"])
