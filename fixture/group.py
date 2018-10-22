@@ -12,7 +12,6 @@ class GroupHelper:
         self.group_cache = None
 
     def fill_group_form(self, group):
-        wd = self.app.wd
         self.fill_field("group_name", group.name)
         self.fill_field("group_header", group.header)
         self.fill_field("group_footer", group.footer)
