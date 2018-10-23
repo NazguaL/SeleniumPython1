@@ -47,7 +47,7 @@ def add_new_group(app, new_group):
         app.group.submit_new_group_creation()
 
 
-@when("I delete the random group from the list")
+@when("I delete the random %s group from the list" % a_random_group)
 def delete_random_group(app, a_random_group):
     with pytest.allure.step("When I delete the random group from the list"):
         app.group.del_group_by_id(a_random_group.id)
