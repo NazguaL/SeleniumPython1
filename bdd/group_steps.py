@@ -71,4 +71,5 @@ def verify_group_deletion(app, db, non_empty_group_list, a_random_group, check_u
         old_groups.remove(a_random_group)
         assert old_groups == new_groups
         # if check_ui:
+    with pytest.allure.step("Also Check UI"):
         assert sorted(new_groups, key=Group.id_or_max) == sorted(app.group.get_groups_list(), key=Group.id_or_max)

@@ -67,8 +67,8 @@
       <file leaf-file-name="group_steps.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/bdd/group_steps.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="46" column="45" lean-forward="true" selection-start-line="46" selection-start-column="45" selection-end-line="46" selection-end-column="45" />
+            <state relative-caret-position="502">
+              <caret line="73" column="45" lean-forward="false" selection-start-line="73" selection-start-column="45" selection-end-line="73" selection-end-column="45" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
               </folding>
@@ -591,7 +591,14 @@
       <option name="project" value="LOCAL" />
       <updated>1540320617299</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Улучшено описание шагов в Allure (работа в процессе 2)">
+      <created>1540320882986</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1540320882986</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -684,7 +691,8 @@
     <MESSAGE value="Добавлен Allure Adaptor" />
     <MESSAGE value="Добавлено описание шагов в Allure" />
     <MESSAGE value="Улучшено описание шагов в Allure (работа в процессе)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Улучшено описание шагов в Allure (работа в процессе)" />
+    <MESSAGE value="Улучшено описание шагов в Allure (работа в процессе 2)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Улучшено описание шагов в Allure (работа в процессе 2)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1107,8 +1115,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bdd/group_steps.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="46" column="45" lean-forward="true" selection-start-line="46" selection-start-column="45" selection-end-line="46" selection-end-column="45" />
+        <state relative-caret-position="502">
+          <caret line="73" column="45" lean-forward="false" selection-start-line="73" selection-start-column="45" selection-end-line="73" selection-end-column="45" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
           </folding>
